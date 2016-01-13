@@ -38,7 +38,7 @@ def scrape(job):
         job_link = each_job.find('a')
         dict_id = job_link['data-position']
         job_dict['title'] = job_link.text.strip()
-        print "job_link", job_link['href']
+        # print "job_link", job_link['href']
         job_href = job_link['href']
         job_href = job_href.split('/')
         job_href = job_href[4]
@@ -47,7 +47,8 @@ def scrape(job):
 
     # job_link = jobs[0].find('a')
     # print "job_link", job_link['href'], job_link.text.strip()
-    print "job_dict is", total_jobs
+    # print "job_dict is", total_jobs
+    return total_jobs
 
 
 if __name__ == '__main__':
