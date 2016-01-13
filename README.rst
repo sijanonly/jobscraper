@@ -1,7 +1,9 @@
 jobscraper
 --------
+	>>> pip install jobscraper
 
-To use (with caution), simply do::
+
+To use, simply do::
 
     >>> from jobscraper import scrape
     >>> jobs = scrape('python')
