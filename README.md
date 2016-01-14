@@ -1,5 +1,8 @@
 jobscraper
 --------
+
+![Travis Build](https://travis-ci.org/sijanonly/jobscraper.svg)
+
 	>>> pip install jobscraper
 
 
