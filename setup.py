@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 def readme():
-    with open('README.rst') as f:
+    with open('README.md') as f:
         return f.read()
 
 setup(
@@ -18,7 +18,7 @@ setup(
     packages=['jobscraper'],
     keywords=['jobs', 'freelance'],
     install_requires=[
-        'beautifulsoup4==4.4.1',
+        'xmltodict==0.9.2',
         'requests==2.9.1'
     ],
     classifiers=[
