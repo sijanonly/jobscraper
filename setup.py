@@ -11,7 +11,7 @@ setup(
     description='Grab all the matching jobs from job portals',
     long_description=readme(),
     url='https://github.com/sijanonly/jobscraper',
-    download_url='https://github.com/sijanonly/jobscraper/tarball/master',
+    download_url='https://github.com/sijanonly/jobscraper/tarball/0.1',
     author='Sijan Bhandari',
     author_email='sijanonly@gmail.com',
     license='MIT',
