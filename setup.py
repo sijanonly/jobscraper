@@ -7,11 +7,11 @@ def readme():
 
 setup(
     name='jobscraper',
-    version='0.1',
+    version='0.2',
     description='Grab all the matching jobs from job portals',
     long_description=readme(),
     url='https://github.com/sijanonly/jobscraper',
-    download_url='https://github.com/sijanonly/jobscraper/tarball/0.1',
+    download_url='https://github.com/sijanonly/jobscraper/tarball/0.2',
     author='Sijan Bhandari',
     author_email='sijanonly@gmail.com',
     license='MIT',
