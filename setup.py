@@ -18,7 +18,7 @@ setup(
     packages=['jobscraper'],
     keywords=['jobs', 'freelance'],
     install_requires=[
-        'beautifulsoup4==4.4.1',
+        'xmltodict==0.9.2',
         'requests==2.9.1'
     ],
     classifiers=[
