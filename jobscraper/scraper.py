@@ -8,7 +8,11 @@ UPWORK_FEED = "https://www.upwork.com/jobs/rss?q={0}"
 
 def scrape_content(title):
     # params = urllib.urlencode({'q': title, 'sort': 'create_time+desc'})
-    myurl = UPWORK_FEED.format(urllib.quote(title))
+    try:
+        quoted_url = urllib.quote(title)
+    except:
+        quoted_url = urllib.parse.quote(title)
+    myurl = UPWORK_FEED.format(quoted_url)
     print("url is", myurl)
     # try:
     req = requests.get(myurl)
