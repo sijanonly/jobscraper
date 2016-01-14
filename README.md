@@ -1,7 +1,8 @@
-jobscraper
+jobscraper 
 --------
 
-![Travis Build](https://travis-ci.org/sijanonly/jobscraper.svg)
+Jobscraper scrapes and returns matching jobs from major Job portals as a dictionary.
+![Travis Build](https://travis-ci.org/sijanonly/jobscraper.svg)(https://travis-ci.org/sijanonly/jobscraper)
 
 	>>> pip install jobscraper
 
@@ -12,6 +13,3 @@ To use, simply do::
     >>> jobs = scrape('python')
 
 
-'jobs' is a dictionary of jobs with keys (1,2,........10) top 10 jobs.
-
-	>>> jobs['1']
