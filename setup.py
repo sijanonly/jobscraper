@@ -19,7 +19,7 @@ setup(
     keywords=['jobs', 'freelance'],
     install_requires=[
         'xmltodict==0.9.2',
-        'requests==2.9.1'
+        'requests==2.20.0'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
