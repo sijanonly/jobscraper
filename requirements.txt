@@ -5,4 +5,4 @@ pkginfo==1.2.1
 requests==2.9.1
 requests-toolbelt==0.5.1
 twine==1.6.5
-wheel==0.26.0
+wheel==0.38.1
